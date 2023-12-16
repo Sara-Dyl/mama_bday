@@ -2,6 +2,7 @@ body {
     background: #F1EBE0;
     /* padding-top: 60px; */
     padding-top: 2.5%;
+    
 }
 
 .home-page {
@@ -50,5 +51,11 @@ h1, h2, h3 {
 .note {
     font-size: 20px;
     color: #F1EBE0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    line-height: 1.75;
 }
 

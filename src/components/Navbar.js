@@ -32,6 +32,26 @@ const Navbar = () => {
                         Memories
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to="/Music"
+                        tabIndex="0"
+                        className={activeNav === '/Music' ? 'active' : ''}
+                        onClick={() => handleNavClick('/Music')}
+                    >
+                        Music
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="/ShowLove"
+                        tabIndex="0"
+                        className={activeNav === '/ShowLove' ? 'active' : ''}
+                        onClick={() => handleNavClick('/ShowLove')}
+                    >
+                        Show Love
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
