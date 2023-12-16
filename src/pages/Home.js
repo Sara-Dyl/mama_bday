@@ -37,7 +37,7 @@ const Home = () => {
                     <br />
                     As much as I love to talk, I could never find the words to express how much you mean to me and how you've
                     shaped my life. I wouldn't be here without you mamusia, all my happiness and all my successes are thanks
-                    to you. You will forever be my role model and my favorite person, and I love you more than life.
+                    to you. You will forever be my role model and my favorite person, and I love you more than life.<br />
                     <br />
                     You deserve the whole world and more mamusia.
                     (I can't give you that, but I thought you might like this website for now!) <br />

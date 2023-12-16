@@ -5,13 +5,14 @@ import Home from './pages/Home';
 import Memories from './pages/Memories';
 import Music from './pages/Music';
 import ShowLove from './pages/ShowLove';
-import Footer from './components/Footer'
+import Footer from './components/Footer' 
 
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="app-page">
+      <div className="content">
       <Router>
         <Navbar />
         <Routes>
@@ -21,7 +22,7 @@ function App() {
           <Route path="/showlove" element={<ShowLove />} />
         </Routes>
       </Router>
-
+      </div>
       <Footer />
     </div>
 
