@@ -2,22 +2,28 @@ import React, { useState, useEffect } from 'react';
 
 import './Home.css'
 
-const Home = () => {
+const Home = () => { 
     // State to manage the header text
     const [headerText, setHeaderText] = useState('Happy birthday Mama!');
+    const [animate, setAnimate] = useState(true);
+    const [key, setKey] = useState(0);
 
     // Function to toggle the header text
     const toggleHeaderText = () => {
+        
         if (headerText === 'Happy birthday Mama!') {
             setHeaderText('Wszystkiego najlepszego Mamusia!');
         } else {
             setHeaderText('Happy birthday Mama!');
         }
+        setKey(prevKey => prevKey + 1);
     };
+
+    
 
     return (
         <div className="home-page">
-            <h1>{headerText}</h1>
+            <h1 key={key}>{headerText}</h1>
             <button className="change-lang" onClick={toggleHeaderText}>Try me!</button>
             <div className="textbox">
                 <p className="note">
