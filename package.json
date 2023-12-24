@@ -2,7 +2,7 @@
   "name": "mama_bday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dla-mojej-mamy.com",
+  "homepage": "https://sara-dyl.github.io/mama_bday/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
